@@ -1,33 +1,73 @@
-# Build-and-Deploy-Ecommerce-Website-With-HTML-CSS-JavaScript
+# M-S-Project
 
-[<img alt="Build-and-Deploy-Ecommerce-Website-With-HTML-CSS-JavaScript" width="100%" src="https://github.com/tech2etc/Youtube-Tutorials/blob/main/Build%20and%20Deploy%20Ecommerce%20Website%20With%20HTML%20CSS%20JavaScript%20Full%20Responsive%20Ecommerce%20Course%20FREE.PNG?raw=true" />](https://youtu.be/P8YuWEkTeuE/)
+We invite you to contribute to this project and make it better.
+To start contributing, follow the below guidelines:
 
-## About this course
-LEARN HOW TO BUILD AND DEPLOY FULL RESPONSIVE ECOMMERCE WEBSITE USING HTML CSS & JAVASCRIPT. This is a free HTML CSS Course. And in this course we will learn how to build and deploy a full multipage ecommerce website completely from scratch step by step. Will Create from responsive navbar using html CSS JavaScript to responsive footer in one video.
+**1.** Fork [this](https://github.com/Mohit-1909/E-commerce.git) repository.
 
-## Why This Course?
-- Responsive Ecommerce Website Tutorial Using HTML CSS & JavaScript.
-- Completely For Beginners.
-- Multipage Ecommerce Website Project.
-- Best Beginner Friendly Free Course On YouTube.
-- Learn How to build amazing professional and responsive websites.
-- Learn the fundamentals of web design.
-- Modern CSS, including flexbox and CSS Grid for layout.
-- Modern CSS techniques to create stunning designs and effects.
-- How to use common components and layout patterns for professional website design and development.
-- Advanced responsive design using media queries.
-- And Many More.
+**2.** Clone your forked copy of the project.
 
-## Sections
-- Part1: Responsive Home Page Design.
-- Part2: Shop Page & Single Product Page.
-- Part3: Blog Page.
-- Part4: About Page.
-- Part5: Contact Us.
-- Part6: Ecommerce Shopping Cart.
+```bash
+   git clone https://github.com/Mohit-1909/E-commerce.git
+```
 
-Here you will find all the images I'm using to create this responsive ecommerce website. In future image folder can update.
+**3.** Navigate to the project directory.
 
-Get the full source code from [here1](https://www.buymeacoffee.com/tech2etc/e/50932).
+```
+   cd M-S-Project
+```
 
-Get the full source code from [here2](https://ko-fi.com/s/06e4db9e09).
+**4.** Create a new branch:
+
+```
+   git checkout -b YourBranchName
+```
+
+**5.** Make changes in source code.
+
+**6.** Stage your changes and commit
+
+```
+   git add .
+   git commit -m "<your_commit_message>"
+```
+
+**7.** Push your local commits to the remote repo.
+
+```
+   git push origin YourBranchName
+```
+
+**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+
+**9.** If anyone contribute to this repository, then the changes will not reflect in your local repository. For that:
+
+**10.** Setup a reference(remote) to the original repository to get all the changes from the remote.
+
+```
+   git remote add upstream  https://github.com/Mohit-1909/E-commerce.git
+```
+
+**11.** Check the remotes for this repository.
+
+```
+   git remote -v
+```
+
+**12.** Fetching from the remote repository will bring in its branches and their respective commits.
+
+```
+   git fetch upstream
+```
+
+**13.** Make sure that you're on your master branch.
+
+```
+   git checkout main
+```
+
+**14.** Now that we have fetched the upstream repository, we want to merge its changes into our local branch. This will bring that branch into sync with the upstream, without losing our local changes.
+
+```
+   git merge upstream/main
+```
