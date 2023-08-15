@@ -1,4 +1,4 @@
-# M-S-Project
+# E-Commerce Project
 
 We invite you to contribute to this project and make it better.
 To start contributing, follow the below guidelines:
